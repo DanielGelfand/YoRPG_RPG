@@ -28,9 +28,9 @@ public class Character
     }
     
     //calculates damage done by protagonist against the monster
-    public int attack( Monster monster ){
-	int damage = (int) ( (strength * attack) - monster.getDefense() );
-	monster.lowerHP( damage );
+    public int attack( Character chara ){
+	int damage = (int) ( (strength * attack) - chara.getDefense() );
+	chara.lowerHP( damage );
 	return damage;
     }
  
