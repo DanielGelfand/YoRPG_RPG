@@ -1,6 +1,6 @@
 public class Protagonist extends Character{
 
-    public Protagonist(){
+    /*   public Protagonist(){
 	name = "Max";
 	health = 125;
 	attack = 0.4;
@@ -12,7 +12,7 @@ public class Protagonist extends Character{
     public Protagonist( String entName){
 	this();
 	name = entName;
-    }
+	}*/
     
     //returns name of protagonist
     public String getName(){
@@ -37,6 +37,8 @@ public class Protagonist extends Character{
 	//System.out.print("Charging special! Player's attack is now " + attack + ". ");
 	//System.out.println( "Player's defense is now " + defense + ".");  
     }
+
+    //public 
 
     /*public static void main( String[] args ){
 	Protagonist knight = new Protagonist ("Etheros");

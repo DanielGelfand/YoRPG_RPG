@@ -56,6 +56,8 @@ public class YoRPG
   {
     String s;
     String name = "";
+    String p;
+    String newClass = "";
     s = "~~~ Welcome to Ye Olde RPG! ~~~\n";
 
     s += "\nChoose your difficulty: \n";
@@ -79,9 +81,37 @@ public class YoRPG
     catch ( IOException e ) { }
 
     //instantiate the player's character
-    pat = new Protagonist( name );
+
+    p = "Hello, " + name + "! What is your class? (Choose from Knight, Wizard, and Priest): ";
+    System.out.print(p);
+    try {
+	    newClass = in.readLine();
+    }
+    catch ( IOException e ) { }
+
+	
+    spawnProtagonist( name, newClass );
 
   }//end newGame()
+
+    /*==========================================
+      Determines the class of the player
+      pre: takes the name and the class name
+      post: creates an instance of a class based on the name and class name
+      ==========================================*/
+    public void spawnProtagonist( String name, String newClass ){
+	if ( newClass.equals( "Priest") ){
+	     pat = new Priest (name);
+	}
+	else if ( newClass.equals("Knight") ) {
+	    pat = new Knight (name);
+	}
+	// add Wizard here
+	else {
+	    System.out.println("You're funny. Here's a Priest.");
+	    pat = new Priest (name);
+	    }	    
+    }
 
 
   /*=============================================
