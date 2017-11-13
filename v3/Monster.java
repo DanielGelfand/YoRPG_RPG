@@ -1,9 +1,9 @@
 public class Monster extends Character{
-    private String name;
+    /*private String name;
     private int health;
     private int defense;
     private int strength;
-    private double attack;
+    private double attack;*/ // This is unneeded
 
     public Monster(){
 	name = "Max";
@@ -17,36 +17,10 @@ public class Monster extends Character{
 	this();
 	name = entName;
     }
-   
-    //returns boolean value of whether monster is alive
-    public boolean isAlive(){
-	return health > 0;
-    }
-
-    //returns defense of monster
-    public int getDefense(){
-	return defense;
-    }
-    
-    //returns name of monster
-    public String getName(){
-	return name;
-    }
-
-    //decreases life attribute of monster
-    public void lowerHP( int damage ){
-	health = health - damage;
-    }
-   
-    //damages the protagonist
-    public int attack( Protagonist protagonist ){
-	int damage = (int) ( (strength * attack) - protagonist.getDefense() );
-	protagonist.lowerHP( damage);
-	return damage;
-	}
+    /*
 
 
-    /*public static void main( String[] args ){
+    public static void main( String[] args ){
 	Monster ornstein = new Monster ("Smaug");
 	test out the constructor and associated methods
 		System.out.println( "Your name is: " + knight.getName() );

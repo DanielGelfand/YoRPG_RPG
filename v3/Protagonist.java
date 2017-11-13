@@ -1,11 +1,5 @@
 public class Protagonist extends Character{
 
-    private String name;
-    private int health;
-    private int defense;
-    private int strength;
-    private double attack;
-
     public Protagonist(){
 	name = "Max";
 	health = 125;
@@ -20,32 +14,10 @@ public class Protagonist extends Character{
 	name = entName;
     }
     
-    //returns boolean value of whether protagonist is alive
-    public boolean isAlive(){
-	return health > 0;
-    }
-   
-    //returns defense of protagonist
-    public int getDefense(){
-	return defense;
-    }
-    
     //returns name of protagonist
     public String getName(){
 	return name;
     }
-   
-    //decreases life attribute of protagonist
-    public void lowerHP( int damage ){
-	health = health - damage;
-    }
-
-    //calculates damage done by protagonist against the monster
-    public int attack( Monster monster ){
-	int damage = (int) ( (strength * attack) - monster.getDefense() );
-	monster.lowerHP( damage );
-	return damage;
-	}
 
     //special attack
     public void specialize(){

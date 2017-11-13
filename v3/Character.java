@@ -3,11 +3,11 @@ public class Character
 
     // Instance Vars
 
-    private String name;
-    private int health;
-    private int defense;
-    private int strength;
-    private double attack;
+    protected String name;
+    protected int health;
+    protected int defense;
+    protected int strength;
+    protected double attack;
 
     
     // Methods
