@@ -113,6 +113,23 @@ public class YoRPG
 	    }	    
     }
 
+    public void spawnMonster(){
+	int rand = (int) (Math.random() * 3);
+	if (rand == 0){
+	    smaug = new Ogre_Priest();
+	    System.out.println( "\nIt's an Ogre Priest!");
+	}
+	else if (rand == 1){
+	    smaug = new Golem();
+	    System.out.println( "\nIt's a Golem!");
+	}
+	// add Ogre here
+	else {
+	    smaug = new Ogre_Priest();
+	    System.out.println( "\nIt's an Ogre Priest!");
+	}
+    }
+
 
   /*=============================================
     boolean playTurn -- simulates a round of combat
@@ -130,7 +147,7 @@ public class YoRPG
     else {
 	    System.out.println( "\nLo, yonder monster approacheth!" );
 
-	    smaug = new Monster();
+	    spawnMonster();
 
 	    while( smaug.isAlive() && pat.isAlive() ) {
 
