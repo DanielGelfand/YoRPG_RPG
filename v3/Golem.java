@@ -8,7 +8,7 @@ public class Golem extends Monster{
 	strength = (int) ( (Math.random() * 20) + 45 );
     }
 
-    public Monster( String entName ){
+    public Golem( String entName ){
 	this();
 	name = entName;
     }
