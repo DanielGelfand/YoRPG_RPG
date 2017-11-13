@@ -33,5 +33,15 @@ public class Character
 	chara.lowerHP( damage );
 	return damage;
     }
+
+    public int getHP(){
+	return health;
+    }
+
+    //regenerate if your class allows for it
+    public void regen(){
+	
+    }
+	
  
 }

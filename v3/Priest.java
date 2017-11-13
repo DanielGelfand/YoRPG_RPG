@@ -12,9 +12,19 @@ public class Priest extends Protagonist{
 	this();
 	name = entName;
     }
+
+    /*//overwritten regen
+    public void regen(){
+	health += 15;
+	System.out.println("Your healing passive healed you for 
+	}*/
+    
+
+    
     public static void about(){
 	System.out.println("This class has low defense and low attack power, and can heal itself every turn.");
     }
+    
 
 
     public static void main (String[] args){
