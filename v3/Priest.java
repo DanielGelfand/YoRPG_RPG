@@ -3,9 +3,9 @@ public class Priest extends Protagonist{
     public Priest(){
 	name = "I Is Priest";
 	health = 100;
-	attack = 0.4;
+	attack = 0.5;
 	defense = 20;
-	strength = 50;
+	strength = 75;
     }
 
     public Priest ( String entName ){
