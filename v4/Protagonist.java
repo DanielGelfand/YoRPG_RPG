@@ -1,4 +1,4 @@
-public class Protagonist extends Character{
+public abstract class Protagonist extends Character{
 
     /*   public Protagonist(){
 	name = "Max";
@@ -13,30 +13,15 @@ public class Protagonist extends Character{
 	this();
 	name = entName;
 	}*/
+
+    abstract void normalize();
+    abstract void specialize();
     
     //returns name of protagonist
     public String getName(){
 	return name;
     }
 
-    //special attack
-    public void specialize(){
-    //increases attack attribute
-	attack += 0.1;
-    //decreases defense attribute
-	defense -= 5;
-    
-	//System.out.print("Charging special! Player's attack is now " + attack + ". ");
-	//System.out.println( "Player's defense is now " + defense + ".");  
-    }
-
-    //normalizes stats
-    public void normalize(){
-	attack = 0.4;
-	defense = 40;
-	//System.out.print("Charging special! Player's attack is now " + attack + ". ");
-	//System.out.println( "Player's defense is now " + defense + ".");  
-    }
 
     //public 
 
