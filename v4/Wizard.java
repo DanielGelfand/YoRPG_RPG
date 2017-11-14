@@ -26,8 +26,8 @@ public class Wizard extends Protagonist{
 
     //normalizes stats
     public void normalize(){
-	attack = 0.4;
-	defense = 40;
+	attack = 2;
+	defense = 15;
 	//System.out.print("Charging special! Player's attack is now " + attack + ". ");
 	//System.out.println( "Player's defense is now " + defense + ".");  
     }

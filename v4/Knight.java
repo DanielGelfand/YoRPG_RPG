@@ -26,7 +26,7 @@ public class Knight extends Protagonist{
 
     //normalizes stats
     public void normalize(){
-	attack = 0.4;
+	attack = 1;
 	defense = 40;
 	//System.out.print("Charging special! Player's attack is now " + attack + ". ");
 	//System.out.println( "Player's defense is now " + defense + ".");  
