@@ -113,7 +113,8 @@ public class YoRPG
 	else {
 	    System.out.println("You're funny. Here's a Priest.");
 	    pat = new Priest (name);
-	    }	    
+	    }
+	pat.about();
     }
 
     public void spawnMonster(){
