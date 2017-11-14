@@ -127,6 +127,7 @@ public class YoRPG
 	else if (rand == 2){
 	    smaug = new Ogre();
 	    System.out.println( "\nIt's an Ogre!");
+	}
 	else {
 	    smaug = new Ogre_Priest();
 	    System.out.println( "\nIt's an Ogre Priest!");
