@@ -107,6 +107,9 @@ public class YoRPG
 	    pat = new Knight (name);
 	}
 	// add Wizard here
+	else if ( newClass.equals("Wizard") ){
+	    pat = new Wizard (name);
+	}
 	else {
 	    System.out.println("You're funny. Here's a Priest.");
 	    pat = new Priest (name);
