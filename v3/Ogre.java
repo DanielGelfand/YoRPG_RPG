@@ -1,7 +1,7 @@
 public class Ogre extends Monster{
 
    public Ogre(){
-	name = "Ogreen Ogre";
+	name = "Angry Shrek";
 	health = 250;
 	attack = 1;
 	defense = 20;
