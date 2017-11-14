@@ -38,7 +38,7 @@ public abstract class Character
 	return health;
     }
 
-    abstract void about();
+    public abstract void about();
     //regenerate if your class allows for it
     
 	

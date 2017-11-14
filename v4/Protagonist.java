@@ -14,8 +14,8 @@ public abstract class Protagonist extends Character{
 	name = entName;
 	}*/
 
-    abstract void normalize();
-    abstract void specialize();
+    public abstract void normalize();
+    public abstract void specialize();
     
     //returns name of protagonist
     public String getName(){
