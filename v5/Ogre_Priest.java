@@ -19,9 +19,9 @@ public static void about(){
 
 //overwritten regenerate method
 public void regenerate(){
-        int regenAmt = 10;
+        int regenAmt = (int) (Math.random() * 10 + 10);
         health += regenAmt;
-        System.out.println("The Ogre Priest regenerated " + regenAmt +"health!");
+        System.out.println("The Ogre Priest regenerated " + regenAmt +" health!");
 }
 public static void main(String[] args){
         about();
