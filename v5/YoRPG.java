@@ -185,6 +185,7 @@ public boolean playTurn()
                         if ( smaug.isAlive() ) { //check to make sure that you're still alive
                                 smaug.regenerate();
                         }
+                        pat.normalize();
                 }//end while
 
                 //option 1: you & the monster perish
