@@ -24,6 +24,9 @@ Ogre Priest - The annoying monster that doesn't do too much damage, but cements 
 1. Regeneration (Priest and Ogre_Priest) **Done**
 2. Super Abilities
 ⋅⋅* Supernova (Wizard): Deal 150% damage, but drop defense to 0
+
 ..* Armored Blow (Knight): Double defense, and attack normally
+
 ..* Holy Hand Grenade (Priest): Heal the same amount as regenerate() and attack normally
+
 3. Add Monster Names
