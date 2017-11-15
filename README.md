@@ -19,3 +19,8 @@ Golem - A feisty one. Lots of damage and health. Be careful if you encounter him
 Ogre - Your "Average Joe" monster. Nothing too overpowered, with balanced stats.
 
 Ogre Priest - The annoying monster that doesn't do too much damage, but cements itself as an irritation with its healing. Attrition is recommended here.
+
+#### Some ambitions:
+1. Regeneration (Priest and Ogre_Priest)
+2. Abilities
+3. Add Monster Names
