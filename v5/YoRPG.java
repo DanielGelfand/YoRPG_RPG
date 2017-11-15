@@ -178,6 +178,13 @@ public boolean playTurn()
 
                         System.out.println( "\n" + "Ye Olde Monster smacked " + pat.getName() +
                                             " for " + d2 + " points of damage.");
+                        if ( pat.isAlive() ) { //check to make sure that you're still alive
+                                pat.regenerate();
+                        }
+
+                        if ( smaug.isAlive() ) { //check to make sure that you're still alive
+                                smaug.regenerate();
+                        }
                 }//end while
 
                 //option 1: you & the monster perish

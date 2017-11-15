@@ -38,6 +38,11 @@ public int getHP(){
         return health;
 }
 
+
+// to be overwritten by two subclasses (Ogre Priest and Priest)
+public void regenerate(){
+
+}
 //public abstract void about(); // to be added in Protagonist
 //regenerate if your class allows for it
 
