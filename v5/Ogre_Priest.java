@@ -19,7 +19,7 @@ public static void about(){
 
 //overwritten regenerate method
 public void regenerate(){
-        int regenAmt = (int) (Math.random() * 10 + 10);
+        int regenAmt = (int) (Math.random() * 5 + 10);
         health += regenAmt;
         System.out.println("The Ogre Priest regenerated " + regenAmt +" health!");
 }
