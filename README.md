@@ -4,7 +4,7 @@
 
 ### Team Members: Raunak Chowdhury, Ryan Chen, Daniel Gelfand
 
-####Some Classes:
+#### Some Classes:
 
 Priest - low damage, low defenses, but is able to heal itself
 
@@ -12,7 +12,7 @@ Wizard - high dmg,low health, low defenses (think: glass cannon)
 
 Knight - high defense, low attack, high health (think: tank)
 
-####On to the monsters!
+#### On to the monsters!
 
 Golem - A feisty one. Lots of damage and health. Be careful if you encounter him.
 
