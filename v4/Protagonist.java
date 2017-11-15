@@ -16,6 +16,7 @@ public abstract class Protagonist extends Character{
 
     public abstract void normalize();
     public abstract void specialize();
+    public abstract void about();
     
     //returns name of protagonist
     public String getName(){
@@ -23,7 +24,7 @@ public abstract class Protagonist extends Character{
     }
 
 
-    //public 
+    
 
     /*public static void main( String[] args ){
 	Protagonist knight = new Protagonist ("Etheros");

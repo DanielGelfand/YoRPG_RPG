@@ -1,4 +1,4 @@
-public abstract class Character
+public class Character
 {
 
     // Instance Vars
@@ -38,7 +38,7 @@ public abstract class Character
 	return health;
     }
 
-    public abstract void about();
+    //public abstract void about();
     //regenerate if your class allows for it
 
 
