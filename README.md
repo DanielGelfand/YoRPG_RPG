@@ -33,4 +33,4 @@ Ogre Priest - The annoying monster that doesn't do too much damage, but cements 
 3. Add Monster Names
 
 ### How To Play
-Be
+Begin by choosing the difficulty. (Add more here)
