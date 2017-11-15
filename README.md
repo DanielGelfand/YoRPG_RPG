@@ -21,12 +21,16 @@ Ogre - Your "Average Joe" monster. Nothing too overpowered, with balanced stats.
 Ogre Priest - The annoying monster that doesn't do too much damage, but cements itself as an irritation with its healing. Attrition is recommended here.
 
 #### Some ambitions for version 5:
-1. Regeneration (Priest and Ogre_Priest) **Done**
+1. Regeneration (Priest and Ogre_Priest)
 2. Super Abilities
-⋅⋅* Supernova (Wizard): Deal 150% damage, but drop defense to 0
 
-..* Armored Blow (Knight): Double defense, and attack normally
+* Supernova (Wizard): Deal 150% damage, but drop defense to 0
 
-..* Holy Hand Grenade (Priest): Heal the same amount as regenerate() and attack normally
+* Armored Blow (Knight): Double defense, and attack normally
+
+* Holy Hand Grenade (Priest): Heal the same amount as regenerate() and attack normally
 
 3. Add Monster Names
+
+### How To Play
+Be
