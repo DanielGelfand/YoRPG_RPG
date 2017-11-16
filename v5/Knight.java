@@ -15,10 +15,11 @@ public class Knight extends Protagonist{
 
         //special attack
     public void specialize(){
+	System.out.println("Armored Blow! ")
     //increases attack attribute
-	attack += 0.1;
+	attack += 0;
     //decreases defense attribute
-	defense -= 5;
+	defense *= 2;
     
 	//System.out.print("Charging special! Player's attack is now " + attack + ". ");
 	//System.out.println( "Player's defense is now " + defense + ".");  
