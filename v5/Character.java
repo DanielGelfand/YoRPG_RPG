@@ -29,7 +29,14 @@ public void lowerHP( int damage ){
 
 //calculates damage done by protagonist against the monster
 public int attack( Character chara ){
-        int damage = (int) ( (strength * attack) - chara.getDefense() );
+        int damage = (int) ( strength * attack );
+        // deal with negative damage values
+        if (chara.getDefense() > damage) {
+                damage = (int) (damage * .15);
+        }
+        else {
+                damage -= chara.getDefense();
+        }
         chara.lowerHP( damage );
         return damage;
 }
