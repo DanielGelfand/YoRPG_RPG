@@ -21,18 +21,17 @@ public Priest ( String entName ){
 
 //special attack
 public void specialize(){
+    System.out.println("Charging Holy Hand Grenade... ");
         //increases attack attribute
-        attack += 0.1;
-        //decreases defense attribute
-        defense -= 5;
-
+    Priest.regenerate();
+    attack += 0;
         //System.out.print("Charging special! Player's attack is now " + attack + ". ");
         //System.out.println( "Player's defense is now " + defense + ".");
 }
 
 //normalizes stats
 public void normalize(){
-        attack = 0.5;
+        attack = 0.75;
         defense = 20;
         //System.out.print("Charging special! Player's attack is now " + attack + ". ");
         //System.out.println( "Player's defense is now " + defense + ".");
