@@ -23,7 +23,7 @@ public Priest ( String entName ){
 public void specialize(){
     System.out.println("Charging Holy Hand Grenade... ");
         //increases attack attribute
-    Priest.regenerate();
+    regenerate();
     attack += 0;
         //System.out.print("Charging special! Player's attack is now " + attack + ". ");
         //System.out.println( "Player's defense is now " + defense + ".");
