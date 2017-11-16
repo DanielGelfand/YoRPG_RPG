@@ -15,10 +15,11 @@ public class Wizard extends Protagonist{
 
         //special attack
     public void specialize(){
+    System.out.println("Generating a SuperNova....");
     //increases attack attribute
-	attack += 0.1;
+	attack *=  1.5;
     //decreases defense attribute
-	defense -= 5;
+	defense = 0;
     
 	//System.out.print("Charging special! Player's attack is now " + attack + ". ");
 	//System.out.println( "Player's defense is now " + defense + ".");  
