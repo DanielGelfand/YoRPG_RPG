@@ -33,4 +33,8 @@ Ogre Priest - The annoying monster that doesn't do too much damage, but cements 
 3. Add Monster Names
 
 ### How To Play
-Begin by choosing the difficulty. (Add more here)
+1. Begin by choosing the difficulty. 
+2. Enter your name and pick a class
+3. Input 1 or 2 based on whether you feel lucky.
+4. Repeat until you perish.
+
